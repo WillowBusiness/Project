@@ -10,7 +10,7 @@ body {
     transition: 0.4s;
 }
 .dark-mode {
-    background-color: rgb(0,0,0);
+    background-color: rgb(17,17,17);
     color: white;
     transition: 0.4s;
 }
@@ -90,5 +90,19 @@ button {
     font-size: 20;
     font-family: 'Arial', sans-serif;
     border-radius: 0.313rem;
-    background-color: palegoldenrod;
+    color: rgb(183, 121, 248);
+    background: rgb(41, 41, 41);
+    width:auto;
+    height:auto;
+    font-size: 1rem;
+    border-color: rgb(240,240,240);
+    border-style:solid;
+    transition:0.2s;
+    font-size:normal;
+}
+button:hover {
+    background:rgb(70,70,70);
+}
+button:active {
+    border-radius:0.5rem;
 }
